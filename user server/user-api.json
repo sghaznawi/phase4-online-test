@@ -1,0 +1,20 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "emailid": "siar@siar.com",
+      "usename": "siar",
+      "password": "password",
+      "percntmarks": 25,
+      "date": "28/10/2022"
+    },
+    {
+      "id": 2,
+      "emailid": "ahmad@ahmad.com",
+      "usename": "ahmad",
+      "password": "password",
+      "percntmarks": "0",
+      "date": "28/10/2022"
+    }
+  ]
+}

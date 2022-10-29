@@ -1,0 +1,118 @@
+{
+  "questions": [
+  {
+    "Sno":"Q01",
+  "question": "JSON stands for _______.",
+  "answers": [
+    "JavaScript Object Notation" ,
+    "Java Object Notation",
+    "JavaScript Object Normalization",
+    "JavaScript Object-Oriented Notation"
+  ],
+  "correctIndex": 1
+  },
+  {
+    "Sno":"Q02",
+  "question": "JSON is a _____ for storing and transporting data.",
+  "answers": [
+    "xml format",
+    "text format",
+    "JavaScript",
+    "php format"
+
+  ],
+  "correctIndex": 2
+  },
+  {
+    "Sno":"Q03",
+  "question": "The JSON syntax is a subset of the _____ syntax.",
+  "answers": [
+  "Ajax",
+  "Php",
+  "HTML",
+  "JavaScript"
+  ],
+  "correctIndex": 3
+  },
+  {
+    "Sno":"Q04",
+  "question": "Who is the creator of JSON?",
+  "answers": [
+    "Alvin Alexander",
+    "Rasmus Lerdorf",
+    "Douglas Crockford",
+    "Jesse James Garrett"
+
+  ],
+  "correctIndex": 2
+  },
+  {
+    "Sno":"Q05",
+  "question": "In the JSON syntax, data is separated by _____.",
+  "answers": [
+    "Semicolons",
+    "Colons",
+    "Commas",
+    "Hyper"
+  ],
+  "correctIndex": 2
+  },
+  {
+    "Sno":"Q06",
+  "question": "In the JSON syntax, array is written within in ____.",
+  "answers": [
+    "Square brackets",
+    "Curley braces",
+    "Paratheses",
+    "None of the above"
+  ],
+  "correctIndex": 0
+  },
+  {
+    "Sno":"Q07",
+  "question": "What are the features of JSON?",
+  "answers": [
+    "Simplicity",
+    "Openness",
+    "Self-Describing",
+    "Internationalization",
+    "Extensibility",
+    "Interoperability",
+    "All of the above"
+  ],
+  "correctIndex": 6
+  },
+  {
+    "Sno":"Q08",
+  "question": "Which is the correct symbol to insert a comment in JSON?",
+  "answers": [
+    "//",
+    "/*…*/",
+    "<!-- … -->",
+    "JSON doesn't support the comments"
+  ],
+  "correctIndex": 3
+  },
+  {
+    "Sno":"Q09",
+  "question": "In the JSON syntax, data is in ____ pairs.",
+  "answers": [
+    "class/object",
+    "name/value",
+    "datatype/variable",
+    "value/="
+  ],
+  "correctIndex": 1
+  },
+  {
+    "Sno":"Q10",
+  "question": "JSON names (keys) require double quotes?",
+  "answers": [
+  "True",
+  "False"
+  ],
+  "correctIndex": 0
+  }
+  
+  ]
+  }
