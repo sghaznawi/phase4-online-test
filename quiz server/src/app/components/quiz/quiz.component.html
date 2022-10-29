@@ -1,0 +1,38 @@
+<div class="container">
+
+  <div class="row">
+  
+ 
+        <form class="regist-form" [formGroup]="quizForm" (ngSubmit)="onsubm(quizForm)">
+            <div class="form-group">
+                <div class="col">
+       <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">S.No</th>
+            <th scope="col">Question</th>
+            <th scope="col" colspan=2>Select Answer</th>
+
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr  *ngFor="let p of quizes;let i = index"> 
+            <td><label for="SNo">{{i+1}}</label></td>
+            <td><label for="quest">{{p.question}}</label></td>
+            <td>
+              <select id={{p.Sno}}   class="form-control"  name={{p.Sno}} aria-describedby="fnameHelp" formControlName={{p.Sno}}>
+                <option *ngFor="let x of p.answers;let k=index" [ngValue]="x" >{{x}}</option>
+              
+              </select>
+             </td> 
+          </tr>
+ 
+        </tbody>
+        </table>
+    
+    </div>
+    <button type="submit" class="btn btn-primary" >Submit</button>
+  </div></form>
+  </div>
+</div>>

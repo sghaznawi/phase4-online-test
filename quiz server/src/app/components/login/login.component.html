@@ -1,0 +1,36 @@
+<div class="container">
+
+  <div class="row">
+  
+    <div class="col"></div>
+    <div class="col-6">
+        <form class="regist-form" [formGroup]="registForm" (ngSubmit)="onsubm(registForm)">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="Email1" name="Email1" aria-describedby="emailHelp" formControlName="Email1">
+              <small *ngIf="hasError('Email1')" id="emailHelp" [class]="hasError('Email1')?'error':''">
+                <div *ngIf="f.Email1.errors">
+  
+                  <span *ngIf="f.Email1.errors.required">Email has errors</span>
+                  <span *ngIf="f.Email1.errors.email">Email is not valid</span>
+                </div></small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1"  name="Password1" formControlName="Password1" >
+              <small *ngIf="hasError('Password1')" [class]="hasError('Password1')?'error':''">
+  
+                <div *ngIf="f.Password1.errors">
+                  <span *ngIf="f.Password1.errors.required">Password is a required field</span>
+                  <span *ngIf="f.Password1.errors.minlength">Entered password is not valid, min 6 char len</span>
+                  <span *ngIf="f.Password1.errors.maxlength">Entered password is not valid, max 12 char len</span>
+                </div>
+              </small>
+            </div>
+
+            <button type="submit" class="btn btn-primary" >Submit</button>
+          </form>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>
